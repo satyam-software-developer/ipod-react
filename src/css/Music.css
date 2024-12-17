@@ -1,0 +1,16 @@
+/* Music container */
+.music {
+  width: 270px; /* Sets the width of the music container */
+  height: 190px; /* Sets the height of the music container */
+  background-color: #e3f2fd; /* Applies a light blue background color to the music container */
+}
+
+/* Heading for music */
+h3 {
+  margin: 1px; /* Sets a small margin around the heading to ensure proper spacing */
+}
+
+/* List element within the music container */
+.music #song1 {
+  padding: 0px 0px; /* Removes any padding around the list item with id "song1" */
+}

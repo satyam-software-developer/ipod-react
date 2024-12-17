@@ -1,0 +1,92 @@
+/* information leaf on top left
+
+.information-container{
+    top: -542px;
+    position: fixed;
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+    height: max-content;
+    color: grey;
+    padding: 10px 0px;
+}
+
+p{
+    margin: 2px;
+}
+
+.info-div{
+    border: 2px solid black;
+    box-sizing: border-box;
+    line-height: 20px;
+    font-size: 16px;
+    max-width: 300px;
+    max-height: 560px;
+    background-color: #212121;
+    transition: all 0.3s ease-in-out;
+}
+
+#info-btn{
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    color: #f0f5f9;
+    background-color: #212121;
+    padding: 2px 10px;
+    box-sizing: border-box;
+    margin-left: 90px;
+}
+
+#info-btn:hover{
+    background-color: #ff165d;
+} */
+
+
+
+/* Container for information leaf positioned at the top left */
+.information-container {
+  top: -542px; /* Initially positions the container off-screen (above the visible viewport) */
+  position: fixed; /* Fixes the container in place relative to the viewport */
+  z-index: 2; /* Ensures the container appears above other elements with lower z-index values */
+  transition: all 0.3s ease-in-out; /* Smooth transition for all changes over 0.3 seconds */
+  height: max-content; /* Adjusts the height based on the content inside */
+  color: grey; /* Sets the text color inside the container to grey */
+  padding: 10px 0px; /* Adds padding of 10px on the top and bottom of the container */
+}
+
+/* Styling for paragraph elements inside the container */
+p {
+  margin: 2px; /* Adds a margin of 2px around paragraph elements */
+}
+
+/* Styling for the information box within the container */
+.info-div {
+  border: 2px solid black; /* Adds a solid black border of 2px width around the box */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  line-height: 20px; /* Sets the line height for text to 20px for better readability */
+  font-size: 16px; /* Sets the font size of the text to 16px */
+  max-width: 300px; /* Limits the maximum width of the box to 300px */
+  max-height: 560px; /* Limits the maximum height of the box to 560px */
+  background-color: #212121; /* Sets a dark background color for the box */
+  transition: all 0.3s ease-in-out; /* Smooth transition for all changes over 0.3 seconds */
+}
+
+/* Styling for the button to open the information container */
+#info-btn {
+  outline: none; /* Removes the default outline from the button */
+  border-radius: 10px; /* Rounds the corners of the button with a 10px radius */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+  text-align: center; /* Centers the text within the button */
+  font-size: 15px; /* Sets the font size of the button text to 15px */
+  color: #f0f5f9; /* Sets the text color of the button to a light color */
+  background-color: #212121; /* Sets the background color of the button to dark */
+  padding: 2px 10px; /* Adds padding of 2px on top and bottom, 10px on left and right */
+  box-sizing: border-box; /* Includes padding and border in the button's total width and height */
+  margin-left: 90px; /* Adds a left margin of 90px to position the button */
+}
+
+/* Styling for the button when hovered over */
+#info-btn:hover {
+  background-color: #ff165d; /* Changes the background color of the button to a bright pink when hovered */
+}

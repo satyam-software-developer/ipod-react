@@ -1,0 +1,55 @@
+/* Whole navigation bar */
+.bar {
+    margin-top: -1px; /* Slightly adjusts the position of the navigation bar, potentially to align it with other elements */
+    display: flex; /* Uses flexbox for layout to arrange child elements horizontally */
+    width: 270px; /* Sets a fixed width for the navigation bar */
+    height: 20px; /* Defines the height of the navigation bar */
+    min-height: 20px; /* Ensures the height does not shrink below 20px */
+    background-color: #E3F2FD; /* Applies a light blue background color */
+    border-bottom: 1px solid black; /* Adds a thin black border at the bottom of the navigation bar */
+}
+
+/* iPod logo */
+.heading {
+    margin: 1px 5px; /* Adds a small margin around the iPod logo to ensure spacing */
+    padding: 0px; /* Removes any padding around the iPod logo */
+}
+
+/* Time display */
+.time {
+    margin: 0px; /* Removes margin around the time display */
+    padding: 0px; /* Removes padding around the time display */
+    margin: auto; /* Centers the time display horizontally within the navigation bar */
+}
+
+/* Battery icon */
+.battery {
+    width: 22px; /* Sets a fixed width for the battery icon */
+    height: 20px; /* Sets a fixed height for the battery icon */
+}
+
+/* Container for battery and play/pause icon */
+.right-container-nav {
+    display: flex; /* Uses flexbox for layout to arrange battery and play/pause icon horizontally */
+    flex-direction: row; /* Aligns child elements in a row */
+    margin-left: 15px; /* Adds left margin to separate the container from the logo and time */
+}
+
+/* Play/pause icon on the right */
+.play-pause-nav {
+    font-size: 15px; /* Sets the font size for the play/pause icon */
+    margin: 0px; /* Removes margin around the play/pause icon */
+    margin-right: 8px; /* Adds right margin to separate it from other icons */
+    padding: 0px; /* Removes padding around the play/pause icon */
+    text-align: center; /* Centers the play/pause icon text */
+    color: #039BE5; /* Applies a blue color to the play/pause icon */
+}
+
+/* Notification text */
+.notification {
+    color: #039BE5; /* Applies a blue color to the notification text */
+    margin: 1px; /* Adds margin around the notification text */
+    margin: auto; /* Centers the notification text horizontally */
+    padding: 0px; /* Removes padding around the notification text */
+    text-align: center; /* Centers the notification text */
+}

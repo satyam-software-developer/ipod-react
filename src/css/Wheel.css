@@ -1,0 +1,73 @@
+/* Wheel container div */
+.wheel-container {
+  position: relative; /* Allows absolute positioning of child elements */
+  width: 200px; /* Sets the width of the wheel container */
+  height: 200px; /* Sets the height of the wheel container */
+  margin-top: auto; /* Automatically adjusts the top margin for vertical centering */
+  margin-bottom: 20px; /* Adds space below the wheel container */
+  display: flex; /* Uses flexbox layout for alignment of child elements */
+}
+
+/* Wheel with border radius 50% */
+.wheel {
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the wheel */
+  position: relative; /* Allows absolute positioning of child elements */
+  width: 200px; /* Sets the width of the wheel */
+  height: 200px; /* Sets the height of the wheel */
+  background-color: white; /* Sets the background color of the wheel */
+  border-radius: 50%; /* Creates a circular shape for the wheel */
+}
+
+/* All controls */
+.controll {
+  color: rgb(210, 210, 210); /* Sets the text color for control elements */
+  font-weight: 900; /* Makes the text bold */
+  position: absolute; /* Allows precise positioning within the wheel */
+}
+
+/* Menu button */
+#menu {
+  left: 38%; /* Positions the menu button from the left edge of the wheel */
+  top: 11%; /* Positions the menu button from the top edge of the wheel */
+  font-weight: 900; /* Ensures the menu button text is bold */
+  font-size: 18px; /* Sets the font size for the menu button */
+  width: 40px; /* Sets the width of the menu button */
+  height: 20px; /* Sets the height of the menu button */
+}
+
+/* Reverse button */
+#reverse {
+  left: 10%; /* Positions the reverse button from the left edge of the wheel */
+  top: 45%; /* Positions the reverse button from the top edge of the wheel */
+  font-size: 23px; /* Sets the font size for the reverse button */
+}
+
+/* Forward button */
+#forward {
+  right: 10%; /* Positions the forward button from the right edge of the wheel */
+  top: 45%; /* Positions the forward button from the top edge of the wheel */
+  font-size: 23px; /* Sets the font size for the forward button */
+}
+
+/* Play-pause button */
+#play-pause {
+  bottom: 11%; /* Positions the play-pause button from the bottom edge of the wheel */
+  left: 44%; /* Positions the play-pause button from the left edge of the wheel */
+  width: 40px; /* Sets the width of the play-pause button */
+  height: 20px; /* Sets the height of the play-pause button */
+}
+
+/* Center button */
+.blank {
+  width: 80px; /* Sets the width of the center button */
+  height: 80px; /* Sets the height of the center button */
+  border-radius: 50%; /* Creates a circular shape for the center button */
+  background-color: rgb(
+    210,
+    210,
+    210
+  ); /* Sets the background color of the center button */
+  position: absolute; /* Allows precise positioning within the wheel */
+  left: 31%; /* Positions the center button from the left edge of the wheel */
+  top: 30%; /* Positions the center button from the top edge of the wheel */
+}

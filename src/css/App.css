@@ -1,0 +1,23 @@
+/* Styles for the lock icon display in the lock screen */
+.lock-display {
+  display: flex; /* Use flexbox layout to align items */
+  justify-content: center; /* Center items horizontally within the container */
+  align-items: center; /* Center items vertically within the container */
+  opacity: 0.3; /* Set opacity to 30% for a translucent effect */
+  width: 270px; /* Set width of the lock display container */
+  height: 150px; /* Set height of the lock display container */
+  background-color: white; /* Set background color to white */
+  font-size: 100px; /* Set font size to 100 pixels for the lock icon */
+}
+
+/* Styles for the bottom div in the lock screen */
+.bottom-div-lock {
+  width: 270px; /* Set width of the bottom container */
+  height: 40px; /* Set height of the bottom container */
+  background-color: #E3F2FD; /* Set background color to a light blue */
+  display: flex; /* Use flexbox layout to align items */
+  justify-content: center; /* Center items horizontally within the container */
+  align-items: center; /* Center items vertically within the container */
+  font-size: 15px; /* Set font size to 15 pixels for the text */
+}
+

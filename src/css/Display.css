@@ -1,0 +1,30 @@
+/* Styles for the display area */
+.display {
+    /* background-image: url("../static/AudioTapes.png"); */ /* Optional: Uncomment to set a background image */
+    background-size: cover; /* Scale the background image to cover the entire container */
+    background-position: center; /* Center the background image within the container */
+    width: 270px; /* Set the width of the display area to 270 pixels */
+    height: 210px; /* Set the height of the display area to 210 pixels */
+    margin-top: 25px; /* Add a 25-pixel margin at the top of the display area */
+    border: 1.5px solid black; /* Apply a 1.5-pixel solid black border around the display area */
+    padding: 3px; /* Add 3 pixels of padding inside the border */
+    display: flex; /* Use flexbox layout for child element positioning */
+    flex-direction: column; /* Arrange child elements in a vertical column */
+}
+
+/* Styles for the blank placeholder div */
+.blank-div {
+    width: 270px; /* Set the width of the blank placeholder to 270 pixels */
+    height: 200px; /* Set the height of the blank placeholder to 200 pixels */
+    background-color: #E3F2FD; /* Set a light blue background color */
+    display: flex; /* Use flexbox layout for child element positioning */
+    justify-content: center; /* Center child elements horizontally within the container */
+    align-items: center; /* Center child elements vertically within the container */
+    text-align: center; /* Center text horizontally within the container */
+}
+
+/* Styles for empty text in the blank placeholder */
+.empty-text {
+    margin: 5px; /* Add a 5-pixel margin around the text */
+    text-align: center; /* Center text horizontally */
+}

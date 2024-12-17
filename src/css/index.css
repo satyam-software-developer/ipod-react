@@ -1,0 +1,15 @@
+/* Styles for the body element */
+body {
+  display: flex; /* Use flexbox layout for the body to align its child elements */
+  width: 100vw; /* Set the body's width to 100% of the viewport width */
+  height: 90vh; /* Set the body's height to 90% of the viewport height */
+  background-color: gray; /* Set a gray background color for the body */
+  justify-content: center; /* Center child elements horizontally within the body */
+  align-items: center; /* Center child elements vertically within the body */
+  margin: 0; /* Remove default margin around the body */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; /* Use a stack of system and web-safe fonts for better rendering across devices */
+  -webkit-font-smoothing: antialiased; /* Apply font smoothing to improve font rendering on WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Apply font smoothing to improve font rendering on Firefox on macOS */
+}

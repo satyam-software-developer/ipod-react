@@ -1,0 +1,18 @@
+/* Container for the settings section */
+.settings {
+  width: 270px; /* Sets a fixed width for the settings container */
+  height: 200px; /* Sets a fixed height for the settings container */
+  background-color: #e3f2fd; /* Applies a light blue background color */
+}
+
+/* List element styling within the settings container */
+li {
+  padding-left: 5px; /* Adds left padding to list items for spacing */
+}
+
+/* Styling for the heading (h2) within the settings container */
+h2 {
+  margin: -5px; /* Adjusts the margin to control spacing around the heading */
+  margin-left: 6px; /* Adds left margin to align the heading properly */
+  margin-top: 7px; /* Adds top margin to provide spacing above the heading */
+}

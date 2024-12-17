@@ -1,0 +1,59 @@
+/* Container div for the now-playing section */
+.now-playing-container {
+  width: 270px; /* Sets the fixed width of the container */
+  height: 190px; /* Sets the fixed height of the container */
+  background-color: #e3f2fd; /* Applies a light blue background color */
+}
+
+/* Song details section within the now-playing container */
+.song-details {
+  display: flex; /* Uses flexbox for layout to arrange items horizontally */
+  align-items: center; /* Vertically centers items within the container */
+  justify-content: space-between; /* Distributes space evenly between items */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  padding: 10px; /* Adds padding around the content inside the song-details container */
+}
+
+/* Image styling within the song details */
+.song-details img {
+  margin: auto; /* Centers the image horizontally */
+  margin-top: 10px; /* Adds a top margin for spacing above the image */
+  width: 110px; /* Sets a fixed width for the image */
+  height: 110px; /* Sets a fixed height for the image */
+}
+
+/* Styling for the song name */
+.song-details h6 {
+  margin: 2px; /* Adds a small margin around the song name */
+  margin-left: 5px; /* Adds left margin to separate the text from the image */
+  font-size: 18px; /* Sets the font size of the song name */
+}
+
+/* Status section indicating if the song is playing or paused */
+.status {
+  margin-top: 20px; /* Adds top margin to separate from the song details */
+  display: flex; /* Uses flexbox for horizontal layout */
+  align-items: center; /* Vertically centers items within the container */
+  justify-content: center; /* Horizontally centers items within the container */
+  width: 100%; /* Sets width to fill the container */
+}
+
+/* Container for song progress bar */
+#progress {
+  width: 65%; /* Sets the width of the progress bar container */
+  height: 10px; /* Sets the height of the progress bar container */
+  margin: 0px 5px; /* Adds horizontal margin for spacing */
+  background-color: gray; /* Sets a gray background color for the progress bar container */
+}
+
+/* Filled portion of the progress bar */
+#progress-bar {
+  height: 10px; /* Matches the height of the progress bar container */
+  background-color: green; /* Sets the color of the filled progress bar */
+}
+
+/* Play/pause icon styling */
+.play-pause-nav {
+  margin-top: 20px; /* Adds top margin to separate from other elements */
+  font-size: 18px; /* Sets the font size for play/pause icon */
+}

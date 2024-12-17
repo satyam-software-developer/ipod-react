@@ -1,0 +1,64 @@
+/* Container for menu */
+.menu-container {
+  display: flex; /* Uses flexbox to arrange child elements in a row by default */
+}
+
+/* Menu options */
+.menu {
+  background-color: #e3f2fd; /* Light blue background color for the menu */
+  height: 190px; /* Sets the height of the menu */
+  width: 135px; /* Sets the width of the menu */
+}
+
+/* Container for leaf images in the menu */
+.leaf {
+  border-left: 1px solid black; /* Adds a 1px solid black border to the left side of the container */
+  background-color: #e3f2fd; /* Light blue background color for the leaf container */
+  height: 190px; /* Sets the height of the container */
+  width: 135px; /* Sets the width of the container */
+}
+
+/* Heading of the menu */
+h3 {
+  text-align: center; /* Centers the text within the heading */
+  margin: 0px; /* Removes default margin from the heading */
+  padding: 0px; /* Removes default padding from the heading */
+}
+
+/* List for menu items */
+ul {
+  width: 100%; /* Makes the list take up the full width of its container */
+  padding: 0px; /* Removes default padding from the list */
+  list-style: none; /* Removes default list styling (bullets) */
+}
+
+/* List item */
+li {
+  padding: 10px 0px; /* Adds vertical padding of 10px to each list item */
+}
+
+/* Active list item */
+.active {
+  padding-left: 5px; /* Adds a left padding of 5px to the active list item */
+  position: relative; /* Allows positioning of pseudo-elements relative to the list item */
+  background-color: rgb(
+    55,
+    150,
+    220
+  ); /* Sets a blue background color for the active item */
+  color: white; /* Sets the text color of the active item to white */
+}
+
+/* Arrow sign after list item */
+.active::after {
+  position: absolute; /* Positions the pseudo-element absolutely within the list item */
+  content: ">"; /* Adds an arrow character after the active list item */
+  right: 2px; /* Positions the arrow 2px from the right edge of the list item */
+}
+
+/* Leaf image */
+.leaf-img {
+  border: 2px solid black; /* Adds a 2px solid black border around the leaf image */
+  height: 188px; /* Sets the height of the leaf image */
+  width: 135px; /* Sets the width of the leaf image */
+}
